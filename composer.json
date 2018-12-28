@@ -1,0 +1,36 @@
+{
+  "name": "noos/noos-php",
+  "description": "NOOS PHP Library",
+  "keywords": [
+    "noos",
+    "inventory management",
+    "api"
+  ],
+  "homepage": "https://www.noos.app/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "NOOS and contributors",
+      "homepage": "https://github.com/hanego/noos-php/contributors"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0",
+    "php-coveralls/php-coveralls": "1.*",
+    "squizlabs/php_codesniffer": "~2.0"
+  },
+  "autoload": {
+    "psr-4": { "Noos\\" : "lib/" }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
